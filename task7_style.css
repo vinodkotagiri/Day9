@@ -1,0 +1,62 @@
+/* font-family: 'MonteCarlo', cursive; */
+.body{
+    margin:0;
+}
+.form-group{
+   
+    border:1px solid black;
+    position:absolute;
+    padding:20px;
+    padding-top:5px;
+}
+.FormTitle{
+    background-color:red;
+    color:white;
+    text-align:center;
+}
+
+.firstName-div{
+display:table-cell;
+float:left;
+margin-right:250px;
+}
+.lastName-div{
+display:table-cell;
+margin-left:10px;
+}
+input{
+    border:none;
+    border-bottom:3px solid black;
+    font-family: 'MonteCarlo', cursive;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.street{
+    width:100%;
+}
+.address2{
+ display:table;
+}
+.city, .state, .zip{
+    width:75%;
+}
+.City-div{
+
+    float:left;
+    width:25%;
+    margin-right:150px;
+}
+.State-div{
+    margin-left:5px;
+    width:25%;
+    float:left
+}
+.Zip-div{
+    float:right;
+    width:25%;
+}
+.additional-info{
+    font-weight:bold;
+    margin-top:50px;
+    font-size:1.2em;
+}

@@ -1,0 +1,69 @@
+<!-- Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mag-o-zine</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+        </style>
+<link rel="stylesheet" href="/task7_style.css">    
+</head>
+  <body>
+    <div class="form-group">
+
+        <div class="FormTitle">
+            <h1>Yes! I want to subscribe to Mag-O-Zine</h1>
+        </div>
+
+        <!-- Name Div -->
+        <div class="FullName-div">
+            <div class="firstName-div">
+                <input type="text" class="firstName" placeholder="Joe"/><br/>
+                <label>First Name</label>
+            </div>
+            <div class="lastName-div">
+                <input type="text" class="lastName" placeholder="Schmegeggie"/><br/>
+                <label>Last Name</label>
+            </div>
+        </div>
+
+        <!-- Address Div -->
+        <div class="Address-div">
+            <div class="StreetAddress">
+                <input type="text" class="street" placeholder="1001 Washington Street" width="200"/><br/>
+                <label>Address</label>
+            </div>
+            <div class="address2">
+                <div class="City-div">
+                    <input type="text" class="city" placeholder="Arizona"/><br/>
+                    <label>City</label>
+                </div>
+                <div class="State-div">
+                    <input type="text" class="state" placeholder="LA"/><br/>
+                    <label>State</label>
+                </div>
+                <div class="Zip-div">
+                    <input type="text" class="zip" placeholder="99999"/><br/>
+                    <label>Zip</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="additional-info">
+            <label>Subscribe for:</label>
+            <label for="sub"><input type="radio" name="subscribe" value=""/> 1 Year($19.95)</label>
+            <label for="sub"><input type="radio" name="subscribe" value=""/> 2 Years($35.00)</label>
+            <br/>
+            <label>Send me more information about:</label><br/>
+            <label for="zine"><input type="checkbox" name="comp" checked/>Computer-Zine</label><br/>
+            <label for="zine"><input type="checkbox" name="fish"/>Fishing-Zine</label><br/>
+            <label for="zine"><input type="checkbox" name="cat" checked/>Cat-O-Zine</label><br/>
+            </div>
+    </div>
+
+    </div>
+  </body>
+</html>
